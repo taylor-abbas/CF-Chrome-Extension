@@ -1,0 +1,24 @@
+html,
+body {
+    text-align: center;
+    width: 350px;
+}
+
+img {
+    width: 54px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fa {
+    /* padding:5px; */
+    padding-bottom: 10px;
+    color: rgb(110, 84, 148);
+}
+
+.fa-github:hover {
+    color: rgb(190, 167, 224);
+}

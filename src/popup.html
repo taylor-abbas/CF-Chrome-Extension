@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Timezone finder</title>
+        <link rel="stylesheet" href="bootstrap.min.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <h4>
+                Get your CF Rating
+            </h4>
+            <div class="input-group mb-3">
+                <input
+                    type="text"
+                    class="form-control"
+                    placeholder="username"
+                    id="username"
+                    aria-label="username"
+                    aria-describedby="basic-addon2"
+                />
+                <div class="input-group-append">
+                    <button
+                        class="btn btn-outline-secondary"
+                        id="getRating"
+                        type="button"
+                    >
+                        Get Rating
+                    </button>
+                </div>
+            </div>
+            <div style = "font-weight: 600;">Rating : <span id="currRating"></span></div>
+            <div style = "font-weight: 600;">Best Rating : <span id="bestRating"></span></div>
+            <div><span style="color: red;" id="error"></span></div>
+
+            <a href="https://www.github.com/taylor-abbas" target="_blank">
+                <i class="fa fa-github fa-lg"></i>
+            </a>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
